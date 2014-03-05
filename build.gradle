@@ -1,0 +1,16 @@
+apply plugin: 'java'
+
+sourceCompatibility = 1.7
+targetCompatibility = 1.7
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile("junit:junit:${junitVersion}") {
+        exclude group: 'org.hamcrest', module: 'hamecrest-core'
+    }
+    testCompile("org.hamcrest:hamcrest-all:${hamcrestVersion}")
+    testCompile("org.mockito:mockito-core:${mockitoVersion}")
+}

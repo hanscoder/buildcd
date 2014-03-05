@@ -1,6 +1,40 @@
+# Java Binaries #
 *.class
 
-# Package Files #
+# Java Package Files #
 *.jar
 *.war
 *.ear
+
+# Gradle #
+.gradle
+build/
+
+# JetBrains IDEs #
+.idea/
+*.ipr
+*.iws
+*.iml
+out/
+.idea_modules/
+atlassian-ide-plugin.xml
+com_crashlytics_export_strings.xml
+
+# Eclipse #
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.externalToolBuilders/
+*.launch
+.cproject
+.buildpath
+.target
+
+
