@@ -13,4 +13,5 @@ dependencies {
     }
     testCompile("org.hamcrest:hamcrest-all:${hamcrestVersion}")
     testCompile("org.mockito:mockito-core:${mockitoVersion}")
+    testCompile("nl.jqno.equalsverifier:equalsverifier:${equalsVersion}")
 }
